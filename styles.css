@@ -1,0 +1,58 @@
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  scroll-behavior: smooth;
+  background: #fff;
+  color: #111;
+}
+header#hero {
+  background: url('bg.jpg') center/cover no-repeat;
+  text-align: center;
+  padding: 80px 20px;
+  color: white;
+}
+.logo {
+  max-width: 180px;
+}
+.btn {
+  background: red;
+  color: white;
+  padding: 12px 24px;
+  border-radius: 6px;
+  text-decoration: none;
+}
+section {
+  padding: 40px 20px;
+}
+.service {
+  margin-bottom: 20px;
+}
+.map iframe {
+  width: 100%;
+  height: 300px;
+  margin-top: 20px;
+}
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 20px;
+}
+form input, form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+form button {
+  background: black;
+  color: white;
+  padding: 10px;
+  border: none;
+}
+footer {
+  background: #111;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
